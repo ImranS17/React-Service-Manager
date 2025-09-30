@@ -1,0 +1,41 @@
+.blog-details {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+.blog-details img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.blog-details h2 {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.blog-details p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #01447C;
+  font-weight: 700;
+}
+
+.back-link:hover {
+  color: #000;
+}
+
+
+@media (max-width: 575.98px) {
+  .blog-details {
+    padding: 30px 25px 30px 15px;
+  }
+}

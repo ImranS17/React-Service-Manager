@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "5 Benefits of Aromatherapy",
+    "excerpt": "Discover how aromatherapy can reduce stress and improve sleep...",
+    "content": "Aromatherapy has many benefits including stress reduction, improved sleep quality, and overall relaxation...",
+    "image": "/Icons/blog1.jpg",
+    "category": "Wellness"
+  },
+  {
+    "id": 2,
+    "title": "Why Yoga Improves Productivity",
+    "excerpt": "Yoga is more than exercise - it boosts focus and energy...",
+    "content": "Yoga improves productivity by calming the mind, reducing fatigue, and helping you stay focused throughout the day...",
+    "image": "/Icons/blog2.jpg",
+    "category": "Fitness"
+  },
+  {
+    "id": 3,
+    "title": "Top 10 Spa Treatments in 2025",
+    "excerpt": "Check out the most popular spa treatments people love...",
+    "content": "The spa industry has evolved with new treatments such as cryotherapy, aromatherapy massage, and hydro facials...",
+    "image": "/Icons/blog3.jpg",
+    "category": "Beauty"
+  }
+]

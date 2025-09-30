@@ -1,0 +1,165 @@
+/* Banner CSS */
+
+.banner {
+    background: url(src/assets/Images/Banner.jpg) no-repeat center center / cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-text {
+    padding-left: 100px;
+}
+
+.banner-text h1 {
+    padding-bottom: 15px;
+    font-size: 55px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.banner-text p {
+    font-size: 19px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn {
+    display: flex;
+    margin-top: 25px;
+    gap: 30px;
+}
+
+.btn button {
+    font-family: "Merriweather", serif;
+    padding: 12px 24px;
+    color: #01447C;
+    background-color: #fff;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border: none;
+}
+
+.btn button:hover {
+    background-color: #01447C;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn button:focus {
+    outline: none;
+}
+
+#brochure {
+    background-color: #01447C;
+    color: #fff;
+    border-radius: 30px;
+    padding: 8px 28px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-left: 18px;
+    font-weight: 600;
+}
+
+#brochure:focus {
+    outline: none;
+}
+
+#brochure img {
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+    border: 1px solid #01447C;
+    margin-left: 10px;
+}
+
+/* Responsive CSS */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .banner-text {
+        padding-left: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .banner-text {
+        padding-left: 35px;
+    }
+
+    .banner-text h1 {
+        font-size: 45px;
+        padding-bottom: 10px;
+    }
+
+    .banner-text p {
+        font-size: 17px;
+    }
+
+    .btn {
+        margin-top: 15px;
+    }
+
+    .btn button {
+        font-size: 13px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .banner-text {
+        padding-left: 15px;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .banner-text p {
+        font-size: 17px;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+
+    .btn button {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .banner {
+        align-items: end;
+        padding-bottom: 120px;
+    }
+
+    .banner-text {
+        padding-left: 15px;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+
+    .banner-text p {
+        font-size: 16px;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+
+    .btn button {
+        font-size: 13px;
+    }
+}
