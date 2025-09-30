@@ -1,7 +1,7 @@
 /* Banner CSS */
 
 .banner {
-    background: url(src/assets/Images/Banner.jpg) no-repeat center center / cover;
+    background: url(/src/assets/Images/Banner.jpg) no-repeat center center / cover;
     height: 600px;
     width: 100%;
     display: flex;
