@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import ServiceCard from "../components/ServiceCard";
+import ServiceCard from "../Components/ServiceCard";
 import "./Services.css";
 
 export default function Services() {
