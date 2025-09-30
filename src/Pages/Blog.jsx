@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import BlogCard from "../components/BlogCard";
+import BlogCard from "../Components/BlogCard";
 import "./Blog.css";
 
 export default function Blog() {
