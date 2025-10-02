@@ -1,16 +1,55 @@
-# React + Vite
+# Service Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite based web application that connects to the WordPress REST API for managing services and blog posts.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## React Compiler
+- WordPress REST API Integration
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Fetch services and blogs from the WordPress dashboard
 
-## Expanding the ESLint configuration
+- Add, update, and manage content via WordPress
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Services & Blogs
+
+- Display services dynamically
+
+- Show blog posts with details
+
+- Contact Form with Live State Updates
+
+- Captures user filled input in real time
+
+- Displays submitted form details immediately below the form
+
+- Google reCAPTCHA Integration
+
+- Demo reCAPTCHA added for spam protection
+
+
+🛠️ Tech Stack
+
+- Frontend: React + Vite
+
+- Backend (Headless CMS): WordPress REST API
+
+- Styling: CSS 
+
+- Form Handling: React state
+
+- Security: Google reCAPTCHA demo
+
+
+
+📦 Installation & Setup
+
+- Clone the repository
+
+- git clone https://github.com/ImranS17/React-Service-Manager.git
+
+- cd React-Service-Manager
+
+- npm install
+
+- npm run dev
